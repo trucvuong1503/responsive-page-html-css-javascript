@@ -1,0 +1,161 @@
+@charset "uft-8";
+/* ページ */
+body{
+    color: #535553;
+    font-size: 20px;
+    text-align: center;
+}
+header{
+    background-color: #479a40;
+    padding: 20px 0px;
+}
+img{
+    vertical-align: top; 
+}
+
+main {
+    width: 1110px;
+    margin: 0 auto 70px;
+}
+footer{
+    background-image: url(img/footer.png);
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: #fff;
+}
+
+#top h2,
+#zukan h1,
+#zoo h1 {
+    font-size: 40px;
+    letter-spacing: 0.3rem;
+    margin-bottom: 60px;
+}
+
+
+/* Navigation 設定 */
+#g_nav{
+    background-color: #f8f4e4;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    list-style: none;
+}
+#g_nav li{
+    padding: 10px 30px;
+}
+#zukan nav,
+#zoo nav{
+    margin-bottom: 60px;
+}
+
+#g_nav a{
+    text-decoration: none;
+    color: #479a40;
+}
+#g_nav a:hover{
+    color: orange;
+}
+/* メインビジュアルの設定 */
+#main_v img{
+    width: 100%;
+    min-width: 1200px; /*最小サイズ*/
+}
+#main_v{
+    margin-bottom: 60px;
+}
+
+/* News の設定 */
+#news {
+    width: 400px;
+    margin: auto;
+}
+#news li{
+    margin-bottom: 25px;
+    text-align: left;
+    list-style-type: none;
+
+}
+/* Main 図鑑 */
+#zukan_list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+#zukan_list img{
+    margin: 10px;
+    border-radius: 20px;
+}
+#zukan_list p{
+    margin-bottom: 60px;
+    font-weight: bold;
+}
+#zukan_list img:hover{
+    opacity: 0.7;
+}
+/* 各動物のページ */
+.animal_v{
+    margin-bottom: 50px;
+}
+
+.animal_v img{
+    border-radius: 20px;
+}
+
+.discript{
+    font-size: 20px;
+    line-height: 2;
+    text-align: justify;
+    margin-bottom: 80px;
+}
+/* ボタン */
+.btn a{
+    display: block;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #479a40;
+    width: 260px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 15px;
+}
+.btn a:hover{
+    background-color: #2a5a26;
+}
+
+/* Zoo */
+.m1{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.m1 .btn a{
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #479a40;
+    width: 260px;
+    margin: auto 10px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.to{
+    font-size: 25px;
+    font-weight: bold;
+    color: #262626;
+    text-decoration: none;
+    background-color: #f8f4e4;
+    width: 100%;
+    margin: 60px auto;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.m2 li{
+    list-style: none;
+    margin-bottom: 20px;
+}
